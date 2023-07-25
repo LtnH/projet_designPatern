@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projet_designPatern", "projet_designPatern\projet_designPatern.csproj", "{F0FAB6FD-37E1-4775-9AA1-27B28C626306}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{B93874DC-A75F-40FF-A3FA-B6B2180F5A40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
