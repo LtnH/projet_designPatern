@@ -96,4 +96,4 @@ Le pattern composite résout ce problème en unifiant l'interface des deux types
 
 ## Les patterns comportementaux
 
-Les patrons comportementaux s'occupent des algorithmes et de la répartition des responsabilités entre les objets.
+Le pattern "Chain of Responsibility" (Chaîne de responsabilité) permet à plusieurs objets de se succéder pour traiter une demande. Chaque objet "handler" vérifie s'il peut gérer la demande, et s'il ne le peut pas, il la transmet au handler suivant dans la chaîne jusqu'à ce qu'elle soit traitée ou que la fin de la chaîne soit atteinte. Cette approche réduit le couplage entre les objets, car chaque handler ne dépend pas directement des autres et n'a pas besoin de connaître l'ensemble de la chaîne de responsabilité. Cela rend le traitement des demandes plus souple et modulaire.
